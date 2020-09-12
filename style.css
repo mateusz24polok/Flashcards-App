@@ -83,3 +83,39 @@ body {
     font-size: 4rem;
     cursor: pointer;
 }
+
+.newCardModal{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background: rgb(184, 180, 180);
+}
+
+.newCardModal__wrapper{
+    width:35%;
+    height:60%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    padding:2%;
+    display:flex;
+    flex-direction: column;
+}
+
+.newCardModal__header{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.newCardModal__form{
+    display:flex;
+    flex-direction: column;
+}
